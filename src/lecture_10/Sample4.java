@@ -17,7 +17,7 @@ public class Sample4 {
 				new BufferedOutputStream(out, 1000);
 		PrintStream p = new PrintStream(bout);
 		
-		p.println("123");
+		p.println("Hello World!!");
 		p.close();
 		
 		

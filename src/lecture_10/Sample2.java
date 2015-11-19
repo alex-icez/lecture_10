@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
@@ -32,7 +33,9 @@ public class Sample2 {
 		for(String key : s)
 			System.out.println(key + " " + m.get(key));
 		Set<Entry<String, Integer>> sa = m.entrySet();
-		
+		for(Entry<,> e : sa) {
+			
+		}
 		
 	}
 }

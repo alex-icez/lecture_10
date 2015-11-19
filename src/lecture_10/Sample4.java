@@ -29,6 +29,16 @@ public class Sample4 {
 		}
 		
 		s.close();
+		
+		//Reader Writer
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

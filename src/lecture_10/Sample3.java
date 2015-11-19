@@ -66,7 +66,7 @@ public class Sample3 {
 	public static void main(String[] args) {
 		Tree t = new Tree();
 		for(int i = 0; i < 20; i++)
-			t.add((i * i ^ 121) % 20);
+			t.add((i * i) % 20);
 		t.print();
 
 	}

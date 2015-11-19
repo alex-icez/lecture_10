@@ -1,9 +1,17 @@
 package lecture_10;
 
+import java.io.FileOutputStream;
+
 public class Sample4 {
 
 	public static void main(String[] args) {
-		FileInputStream in = new FileInputStream();
+		FileOutputStream out = new FileOutputStream("test");
+		
+		
+		
+		
+		
+		//	FileInputStream in = new FileInputStream();
 
 	}
 

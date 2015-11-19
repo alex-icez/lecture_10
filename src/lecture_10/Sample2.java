@@ -31,5 +31,8 @@ public class Sample2 {
 		Set<String> s = m.keySet();
 		for(String key : s)
 			System.out.println(key + " " + m.get(key));
+		Set<Entry<String, Integer>> sa = m.entrySet();
+		
+		
 	}
 }

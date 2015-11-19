@@ -24,7 +24,7 @@ public class Sample2 {
 		Map<String, Integer> m = new TreeMap<>();
 		m.put("aba", 1);
 		m.put("ttt", 45);
-		
+		System.out.println(m.get("aba"));
 		
 	}
 }

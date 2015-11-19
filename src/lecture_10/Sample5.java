@@ -9,7 +9,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 class Point implements Serializable {
-	int x;
+	transient int x;
 	int y;
 	public Point(int x, int y) {
 		this.x = x;

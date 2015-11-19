@@ -1,11 +1,13 @@
 package lecture_10;
 
+import java.util.Scanner;
+
 public class Sample1 {
 
 	public static void main(String[] args) {
-		String sample = "abbaa";
-		String text = "abbaa aabababababa ababab "
-				+ "abbabbbabab abbaa bbabbaa";
+		Scanner s = new Scanner(System.in);
+		String sample = s.nextLine();
+		String text = s.nextLine();
 		int pos = -1;
 		while(true) {
 			pos = text.indexOf(sample, pos + 1);

@@ -8,7 +8,7 @@ public class Sample1 {
 				+ "abbabbbabab abbaa bbabbaa";
 		int pos = 0;
 		while(true) {
-			pos = text.indexOf(sample, pos);
+			pos = text.indexOf(sample, pos + 1);
 			if (pos < 0) 
 				break;
 			System.out.println(pos);

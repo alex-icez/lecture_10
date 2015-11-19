@@ -11,7 +11,7 @@ class Tree {
 		}
 	}
 	
-	
+	private Node root = null;
 	
 	
 }

@@ -18,7 +18,8 @@ public class Sample4 {
 		BufferedOutputStream bout = 
 				new BufferedOutputStream(out, 1000);
 	
-		OutputStreamWriter outw = new OutputStreamWriter(bout, "cp1251");
+		OutputStreamWriter outw = 
+				new OutputStreamWriter(bout, "cp1251");
 		
 		
 		PrintWriter p = new PrintWriter(outw);

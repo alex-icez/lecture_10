@@ -33,8 +33,8 @@ public class Sample2 {
 		for(String key : s)
 			System.out.println(key + " " + m.get(key));
 		Set<Entry<String, Integer>> sa = m.entrySet();
-		for(Entry<,> e : sa) {
-			
+		for(Entry<String, Integer> e : sa) {
+			System.out.println(e.getKey() + " : " + e.getValue());
 		}
 		
 	}

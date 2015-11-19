@@ -13,6 +13,18 @@ class Tree {
 	
 	private Node root = null;
 	
+	public void add(int value) {
+		Node node = new Node(value);
+		if (root == null) {
+			root = node;
+			return;
+		}
+		
+		
+		
+	
+	}
+	
 	
 }
 

@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
@@ -26,7 +27,9 @@ public class Sample2 {
 		m.put("ttt", 45);
 		System.out.println(m.get("aba"));
 		m.containsKey("aba");
-		m.remove("aba");
+		//m.remove("aba");
 		Set<String> s = m.keySet();
+		for(String key : s)
+			System.out.println(key + " " + m.get(key));
 	}
 }

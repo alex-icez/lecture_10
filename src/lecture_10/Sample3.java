@@ -58,7 +58,14 @@ class Tree {
 public class Sample3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Tree t = new Tree();
+		t.add(-7);
+		t.add(5);
+		t.add(-4);
+		t.add(6);
+		t.add(-8);
+		t.add(13);
+		t.print();
 
 	}
 

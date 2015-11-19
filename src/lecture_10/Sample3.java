@@ -28,8 +28,14 @@ class Tree {
 					iter.right = node;
 					break;
 				}
+			} else {
+				if (iter.left != null)
+					iter = iter.left;
+				else {
+					iter.left = node;
+					break;
+				}
 			}
-	
 		}
 	}
 	

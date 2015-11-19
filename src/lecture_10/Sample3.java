@@ -47,8 +47,10 @@ class Tree {
 		for(int i = 0; i < d; i++)
 			System.out.print("\t");
 		System.out.println(node.value);
+		d++;
 		print(node.left);
 		print(node.right);
+		d--;
 	}
 	
 	public void print() {

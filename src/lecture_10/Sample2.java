@@ -25,6 +25,7 @@ public class Sample2 {
 		m.put("aba", 1);
 		m.put("ttt", 45);
 		System.out.println(m.get("aba"));
-		
+		m.containsKey("aba");
+		m.remove("aba");
 	}
 }

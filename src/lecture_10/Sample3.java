@@ -40,7 +40,11 @@ class Tree {
 	}
 	
 	private void print(Node node) {
-		
+		if (node == null)
+			return;
+		print(node.left);
+		System.out.println(node.value);
+		print(node.right);
 	}
 	
 	public void print() {

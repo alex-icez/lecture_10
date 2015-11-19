@@ -6,8 +6,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
-class Point {
+class Point implements Serializable {
 	int x;
 	int y;
 	public Point(int x, int y) {

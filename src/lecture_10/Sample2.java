@@ -27,5 +27,6 @@ public class Sample2 {
 		System.out.println(m.get("aba"));
 		m.containsKey("aba");
 		m.remove("aba");
+		Set<String> s = m.keySet();
 	}
 }

@@ -7,6 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.util.Scanner;
 
 public class Sample4 {
 
@@ -25,12 +26,11 @@ public class Sample4 {
 		BufferedInputStream bin = new BufferedInputStream(in, 1000);
 		
 		Scanner s = new Scanner(bin);
-		int ch;
-		while((ch = bin.read()) != -1) {
-			System.out.print((char)ch);
+		while(s.hasNextLine()) {
+			System.out.print(s.nextLine());
 		}
 		
-
+		s.close();
 	}
 
 }

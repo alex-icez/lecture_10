@@ -19,7 +19,7 @@ class Tree {
 			root = node;
 			return;
 		}
-		
+		Node iter = root;
 		
 		
 	

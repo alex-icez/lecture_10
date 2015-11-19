@@ -10,7 +10,6 @@ public class Sample4 {
 		FileOutputStream out = new FileOutputStream("test");
 		byte arr[] = "qwerty one".getBytes();
 		out.write(arr);
-		
 		out.close();
 		
 		

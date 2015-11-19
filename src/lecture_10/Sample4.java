@@ -8,6 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.PrintStream;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Sample4 {
@@ -17,10 +18,10 @@ public class Sample4 {
 		BufferedOutputStream bout = 
 				new BufferedOutputStream(out, 1000);
 	
-		OutputStreamWriter out = new OutputStreamWriter(bout, "cp1251")
+		OutputStreamWriter out = new OutputStreamWriter(bout, "cp1251")ж
 		
 		
-		PrintStream p = new PrintStream(bout);
+		PrintWriter p = new PrintWriter(out);
 		
 		p.println("Hello World!!");
 		p.close();

@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 
 public class Sample4 {
 
@@ -13,9 +14,11 @@ public class Sample4 {
 		FileOutputStream out = new FileOutputStream("test");
 		BufferedOutputStream bout = 
 				new BufferedOutputStream(out, 1000);
-		byte arr[] = "qwerty on".getBytes();
-		bout.write(arr);
-		bout.close();
+		PrintStream p = new PrintStream(bout);
+		
+		p.println("Hello World!!!");
+	
+		p.close();
 		
 		
 		FileInputStream in = new FileInputStream("test");

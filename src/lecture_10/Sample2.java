@@ -1,6 +1,7 @@
 package lecture_10;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
@@ -20,7 +21,8 @@ public class Sample2 {
 		hs.add(123);
 		hs.contains(123);
 		
-		TreeSet<Integer> ts = new TreeSet<>();
+	
+				TreeSet<Integer> ts = new TreeSet<>();
 		LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
 		
 		Map<String, Integer> m = new HashMap<>();//new TreeMap<>();

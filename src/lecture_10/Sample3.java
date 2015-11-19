@@ -39,6 +39,13 @@ class Tree {
 		}
 	}
 	
+	private void print(Node node) {
+		
+	}
+	
+	public void print() {
+		print(root);
+	}
 	
 }
 

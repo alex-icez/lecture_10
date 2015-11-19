@@ -18,12 +18,12 @@ public class Sample4 {
 		BufferedOutputStream bout = 
 				new BufferedOutputStream(out, 1000);
 	
-		OutputStreamWriter out = new OutputStreamWriter(bout, "cp1251")ж
+		OutputStreamWriter outw = new OutputStreamWriter(bout, "cp1251");
 		
 		
-		PrintWriter p = new PrintWriter(out);
+		PrintWriter p = new PrintWriter(outw);
 		
-		p.println("Hello World!!");
+		p.println("Привет мир!!!");
 		p.close();
 		
 		

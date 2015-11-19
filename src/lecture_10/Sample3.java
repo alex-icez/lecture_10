@@ -1,5 +1,7 @@
 package lecture_10;
 
+import java.util.Random;
+
 
 class Tree {
 	private class Node {
@@ -68,8 +70,9 @@ public class Sample3 {
 
 	public static void main(String[] args) {
 		Tree t = new Tree();
+		Random r = new Random();
 		for(int i = 0; i < 20; i++)
-			t.add((i * i) % 20);
+			t.add(r.nextInt());
 		t.print();
 
 	}

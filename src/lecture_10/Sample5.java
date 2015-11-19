@@ -17,7 +17,7 @@ class Point {
 }
 
 public class Sample5 {
-	public static void main(String args[]) throws FileNotFoundException, IOException {
+	public static void main(String args[]) throws FileNotFoundException, IOException, ClassNotFoundException {
 		ObjectOutputStream out = new ObjectOutputStream
 				(new FileOutputStream("out"));
 		Point p = new Point(10,20);
@@ -28,7 +28,6 @@ public class Sample5 {
 		ObjectInputStream in = new ObjectInputStream(
 				new FileInputStream("out"));
 		Point p2 = (Point)in.readObject();
-		
-		
+		System.out.println(p2.x + " " + p2.y);
 	}
 }

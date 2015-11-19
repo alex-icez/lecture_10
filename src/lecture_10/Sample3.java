@@ -44,11 +44,14 @@ class Tree {
 	private void print(Node node) { // ЛКП
 		if (node == null)
 			return;
-		for(int i = 0; i < d; i++)
-			System.out.print("\t");
-		System.out.println(node.value);
+		
 		d++;
 		print(node.left);
+		
+		for(int i = 0; i < d - 1; i++)
+			System.out.print("\t");
+		System.out.println(node.value);
+		
 		print(node.right);
 		d--;
 	}

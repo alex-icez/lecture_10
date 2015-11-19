@@ -17,14 +17,12 @@ public class Sample4 {
 				new BufferedOutputStream(out, 1000);
 		PrintStream p = new PrintStream(bout);
 		
-		p.println("Hello World!!!");
-	
+		p.println("123");
 		p.close();
 		
 		
 		FileInputStream in = new FileInputStream("test");
 		BufferedInputStream bin = new BufferedInputStream(in, 1000);
-		
 		Scanner s = new Scanner(bin);
 		while(s.hasNextLine()) {
 			System.out.print(s.nextLine());

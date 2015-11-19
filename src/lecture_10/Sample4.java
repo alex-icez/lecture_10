@@ -1,5 +1,6 @@
 package lecture_10;
 
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -14,6 +15,11 @@ public class Sample4 {
 		
 		
 		FileInputStream in = new FileInputStream("test");
+		int ch;
+		while((ch = in.read()) != -1) {
+			System.out.print((char)ch);
+		}
+		
 
 	}
 

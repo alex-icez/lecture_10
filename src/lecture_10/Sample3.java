@@ -72,7 +72,7 @@ public class Sample3 {
 		Tree t = new Tree();
 		Random r = new Random();
 		for(int i = 0; i < 20; i++)
-			t.add(r.nextInt());
+			t.add(r.nextInt() % 1000);
 		t.print();
 
 	}

@@ -39,6 +39,8 @@ class Tree {
 		}
 	}
 	
+	private int d = 0;
+	
 	private void print(Node node) { // ЛКП
 		if (node == null)
 			return;

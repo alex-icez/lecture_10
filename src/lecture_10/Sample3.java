@@ -20,9 +20,17 @@ class Tree {
 			return;
 		}
 		Node iter = root;
-		
-		
+		while(true) {
+			if (value > iter.value) {
+				if (iter.right != null) 
+					iter = iter.right;
+				else {
+					iter.right = node;
+					break;
+				}
+			}
 	
+		}
 	}
 	
 	

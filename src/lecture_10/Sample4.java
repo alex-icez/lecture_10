@@ -8,12 +8,12 @@ public class Sample4 {
 
 	public static void main(String[] args) throws IOException {
 		FileOutputStream out = new FileOutputStream("test");
-		byte arr[] = "qwerty on вапвпав".getBytes();
+		byte arr[] = "qwerty on".getBytes();
 		out.write(arr);
 		out.close();
 		
 		
-		//	FileInputStream in = new FileInputStream();
+		FileInputStream in = new FileInputStream("test");
 
 	}
 

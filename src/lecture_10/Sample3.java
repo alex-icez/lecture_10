@@ -39,7 +39,7 @@ class Tree {
 		}
 	}
 	
-	private void print(Node node) {
+	private void print(Node node) { // ЛКП
 		if (node == null)
 			return;
 		print(node.left);

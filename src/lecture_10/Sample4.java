@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.io.PrintStream;
 import java.util.Scanner;
 
@@ -15,6 +16,10 @@ public class Sample4 {
 		FileOutputStream out = new FileOutputStream("test");
 		BufferedOutputStream bout = 
 				new BufferedOutputStream(out, 1000);
+	
+		OutputStreamWriter out = new OutputStreamWriter(bout, "cp1251")
+		
+		
 		PrintStream p = new PrintStream(bout);
 		
 		p.println("Hello World!!");
@@ -30,7 +35,6 @@ public class Sample4 {
 		
 		s.close();
 		
-		//Reader Writer
 		
 		
 		

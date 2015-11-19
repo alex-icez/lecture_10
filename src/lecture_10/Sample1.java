@@ -8,9 +8,10 @@ public class Sample1 {
 				+ "abbabbbabab abbaa bbabbaa";
 		int pos = 0;
 		while(true) {
-			text.indexOf(sample, pos);
-			
-			
+			pos = text.indexOf(sample, pos);
+			if (pos < 0) 
+				break;
+			System.out.println(pos);
 		}
 		
 

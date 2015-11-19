@@ -3,6 +3,7 @@ package lecture_10;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.TreeSet;
 
 public class Sample2 {
 
@@ -16,6 +17,8 @@ public class Sample2 {
 		
 		TreeSet<Integer> ts = new TreeSet<>();
 		
+		
+		LinkedHashSet<Integer> lhs = 
 	}
 
 }

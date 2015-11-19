@@ -6,10 +6,13 @@ public class Sample1 {
 		String sample = "abbaa";
 		String text = "aabababababa ababab "
 				+ "abbabbbabab abbaa bbabbaa";
-		int pos;
+		int pos = 0;
+		while(true) {
+			text.indexOf(sample, pos);
+			
+			
+		}
 		
-		
-		System.out.println(text.indexOf(sample));
 
 	}
 

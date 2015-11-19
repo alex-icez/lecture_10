@@ -14,6 +14,7 @@ public class Sample2 {
 		hs.add(123);
 		hs.contains(123);
 		
+		TreeSet<Integer> ts = new TreeSet<>();
 		
 	}
 

@@ -19,7 +19,8 @@ public class Sample5 {
 	public static void main(String args[]) throws FileNotFoundException, IOException {
 		ObjectOutputStream out = new ObjectOutputStream
 				(new FileOutputStream("out"));
-		out.writeByte(123);
+		Point p = new Point(10,20);
+		out.writeObject(p);
 		out.close();
 	}
 }

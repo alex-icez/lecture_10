@@ -11,5 +11,6 @@ public class Sample5 {
 		ObjectOutputStream out = new ObjectOutputStream
 				(new FileOutputStream("out"));
 		out.writeByte(123);
+		out.close();
 	}
 }

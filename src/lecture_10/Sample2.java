@@ -19,7 +19,7 @@ public class Sample2 {
 		TreeSet<Integer> ts = new TreeSet<>();
 		LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
 		
-		
+		Map<String, Integer> m = new TreeMap<>();
 		
 	}
 }

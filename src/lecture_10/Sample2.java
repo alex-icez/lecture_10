@@ -17,9 +17,9 @@ public class Sample2 {
 		hs.contains(123);
 		
 		TreeSet<Integer> ts = new TreeSet<>();
-		
-		
 		LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
+		
+		
+		
 	}
-
 }
